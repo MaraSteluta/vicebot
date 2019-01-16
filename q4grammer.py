@@ -29,7 +29,7 @@ def process_text(text_string, startwords, d):
 
 	startwords.add(tuple(text[0:L-1]))
 
-	for ARR in	zip(*(text[i:] for i in range(L))):
+	for ARR in zip(*(text[i:] for i in range(L))):
 		d[tuple(ARR[0:L-1])].add(tuple(ARR[1:L]))
 
 

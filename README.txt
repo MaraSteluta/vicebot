@@ -14,3 +14,7 @@ Creates a markov chain and does random walks.
 You can switch the collection from romanian to english. col=..
 You can play with the length of the context from L=3,4,5.
 4 works best, but you can find some gems with 3 as well.
+
+tensorflowbot_train.py
+Creates a bot which uses RNN. Requires python3 and a bit of knowledge about
+https://github.com/minimaxir/textgenrnn
